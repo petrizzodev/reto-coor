@@ -1,0 +1,32 @@
+{
+  "name": "reto-playwright-screenplay",
+  "version": "1.0.0",
+  "description": "Automatización de pruebas API con Playwright y Screenplay",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install-deps": "npx playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@serenity-js/assertions": "^3.25.0",
+    "@serenity-js/console-reporter": "^3.25.0",
+    "@serenity-js/core": "^3.25.0",
+    "@serenity-js/playwright": "^3.25.0",
+    "@serenity-js/playwright-test": "^3.32.2",
+    "@serenity-js/rest": "^3.25.0",
+    "@serenity-js/serenity-bdd": "^3.25.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "playwright",
+    "serenity",
+    "screenplay",
+    "automation",
+    "api"
+  ]
+}
